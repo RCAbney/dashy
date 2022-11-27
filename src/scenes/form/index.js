@@ -40,7 +40,7 @@ const Form = () => {
       <Formik
         onSubmit={handleFormSubmit}
         initialValues={initialValues}
-        validationScheme={userSchema}
+        validationSchema={userSchema}
       >
         {({
           values,
